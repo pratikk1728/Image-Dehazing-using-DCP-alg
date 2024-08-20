@@ -7,15 +7,24 @@ The DCP algorithm leverages the observation that in most non-sky patches of haze
 
 Features:
 Haze Removal: Effectively removes haze from images, improving visibility and contrast.
+
 Atmospheric Light Estimation: Estimates the atmospheric light for accurate scene recovery.
+
 Transmission Map Estimation: Calculates the transmission map to represent the portion of light that is not scattered and reaches the camera.
+
 Refinement: Includes a refinement step using soft matting to improve the quality of the transmission map.
+
 Flexible Input: Supports a variety of image formats.
+
 
 Requirements:
 
 Python 3.x
+
 OpenCV
+
 NumPy
+
 Matplotlib (optional, for visualization)
+
 Math

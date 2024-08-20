@@ -5,7 +5,8 @@ This project implements an image dehazing technique based on the Dark Channel Pr
 
 The DCP algorithm leverages the observation that in most non-sky patches of haze-free outdoor images, some pixels have very low intensity in at least one color channel (dark pixels). This prior is used to estimate the thickness of the haze and subsequently recover the haze-free image.
 
-Features:
+Features:-
+
 Haze Removal: Effectively removes haze from images, improving visibility and contrast.
 
 Atmospheric Light Estimation: Estimates the atmospheric light for accurate scene recovery.
@@ -17,7 +18,7 @@ Refinement: Includes a refinement step using soft matting to improve the quality
 Flexible Input: Supports a variety of image formats.
 
 
-Requirements:
+Requirements:-
 
 Python 3.x
 
